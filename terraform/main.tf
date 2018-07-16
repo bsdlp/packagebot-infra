@@ -5,3 +5,7 @@ terraform {
     region = "us-west-2"
   }
 }
+
+provider "aws" {
+  version = "~> 1.27"
+}
