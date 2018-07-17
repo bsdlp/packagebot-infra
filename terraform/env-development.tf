@@ -3,4 +3,5 @@ module "packagebot" {
 
   aws_region     = "us-west-2"
   aws_account_id = "635281304921"
+  environment    = "development"
 }
