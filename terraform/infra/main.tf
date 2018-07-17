@@ -8,7 +8,10 @@ provider "aws" {
   skip_metadata_api_check = true
 }
 
+/*
 module "item_images" {
   source      = "./item_images"
   environment = "${var.environment}"
 }
+*/
+
